@@ -45,7 +45,6 @@ h1 span { display: block; color: #a8d9ca; font-weight: 500; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
 .button { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; padding: 0 18px; border-radius: 10px; font-size: .92rem; font-weight: 750; text-decoration: none; }
 .button-primary { color: var(--green-950); background: #bde4d7; }
-.button-secondary { color: var(--white); border: 1px solid rgba(255,255,255,.3); }
 .hero-panel { padding: 30px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.15); border-radius: var(--radius); box-shadow: var(--shadow); }
 .panel-label { margin: 0 0 16px; color: #84c9b6; font-size: .72rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .hero-panel ul { margin: 0; padding: 0; list-style: none; }
@@ -73,40 +72,31 @@ h1 span { display: block; color: #a8d9ca; font-weight: 500; }
 .metric-stage-header h3 { margin: 0; color: var(--green-950); font-size: 1.5rem; letter-spacing: -.025em; }
 .metric-stage-header p { margin: 0; color: var(--muted); font-size: .88rem; }
 .table-wrap { overflow-x: auto; background: var(--white); border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 10px 34px rgba(20,63,53,.055); }
-.metrics-table { width: 100%; min-width: 1030px; border-collapse: collapse; font-size: .88rem; }
+.metrics-table { width: 100%; min-width: 1060px; border-collapse: collapse; font-size: .88rem; }
 .metrics-table th, .metrics-table td { padding: 16px 15px; vertical-align: middle; text-align: left; border-bottom: 1px solid var(--line); }
 .metrics-table th { color: var(--green-950); background: #edf4f1; font-size: .78rem; font-weight: 800; white-space: nowrap; }
 .metrics-table th:first-child { width: 19%; }
-.metrics-table th:nth-child(2) { width: 15%; }
-.metrics-table th:nth-child(3) { width: 14%; }
-.metrics-table th:nth-child(4) { width: 30%; }
+.metrics-table th:nth-child(2) { width: 14%; }
+.metrics-table th:nth-child(3) { width: 13%; }
+.metrics-table th:nth-child(4) { width: 32%; }
+.metrics-table th:nth-child(5) { width: 9%; }
+.metrics-table th:nth-child(6) { width: 13%; }
 .metrics-table tbody tr:last-child td { border-bottom: 0; }
 .metrics-table tbody tr:hover { background: #fbfdfc; }
 .metric-name { color: var(--green-950); font-weight: 750; }
 .target { font-variant-numeric: tabular-nums; font-weight: 700; white-space: pre-line; }
 .status { display: inline-flex; min-height: 25px; align-items: center; justify-content: center; padding: 2px 9px; border-radius: 999px; font-size: .73rem; font-weight: 800; letter-spacing: .04em; }
 .status-tbd { color: var(--amber-ink); background: var(--amber-bg); }
-.output-cell a { color: var(--green-650); font-weight: 700; }
+.output-cell a { display: inline-flex; padding: 4px 8px; color: var(--green-800); background: var(--green-100); border-radius: 7px; font-weight: 800; text-decoration: none; }
+.output-cell a:hover, .output-cell a:focus-visible { color: var(--white); background: var(--green-650); }
+.output-example-link { display: inline-flex; align-items: center; gap: 5px; padding: 4px 8px; color: var(--green-800); background: var(--green-100); border: 1px dashed #83ad9f; border-radius: 7px; font-weight: 800; white-space: nowrap; }
+.output-example-link small { color: var(--muted); font-size: .65rem; font-weight: 700; }
 .loading, .notice { padding: 28px; color: var(--muted); background: var(--white); border: 1px solid var(--line); border-radius: 12px; }
-.metric-note { margin: 28px 0 0; color: var(--muted); font-size: .82rem; }
-
-.output-example { display: flex; align-items: center; justify-content: space-between; gap: 34px; padding: 30px; border: 1px solid var(--line); border-left: 5px solid var(--green-650); border-radius: 14px; box-shadow: var(--shadow); }
-.example-badge { display: inline-block; margin-bottom: 9px; padding: 3px 9px; color: var(--amber-ink); background: var(--amber-bg); border-radius: 999px; font-size: .72rem; font-weight: 800; }
-.output-example h3 { margin: 0 0 5px; color: var(--green-950); font-size: 1.2rem; }
-.output-example p { margin: 0; color: var(--muted); font-size: .9rem; }
-.output-links { display: flex; flex-wrap: wrap; gap: 8px; }
-.output-links a { padding: 8px 12px; color: var(--green-800); background: var(--green-100); border-radius: 8px; font-size: .82rem; font-weight: 800; text-decoration: none; }
 .contributors-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
 .person-card { padding: 26px; background: var(--white); border: 1px solid var(--line); border-radius: 14px; }
 .person-card .role { margin: 0 0 6px; color: var(--green-650); font-size: .74rem; font-weight: 800; letter-spacing: .04em; }
 .person-card h3 { margin: 0 0 10px; color: var(--green-950); font-size: 1.35rem; }
 .person-card p:last-child { margin: 0; color: var(--muted); font-size: .9rem; }
-.policy-section { padding-block: 72px; }
-.policy-card { display: grid; grid-template-columns: .65fr 1.35fr; gap: 60px; align-items: start; padding: 38px; color: #d7e8e2; background: var(--green-950); border-radius: var(--radius); }
-.policy-card .eyebrow { color: #83c9b5; }
-.policy-card h2 { margin: 0; color: var(--white); font-size: 1.85rem; }
-.policy-card ul { margin: 0; padding-left: 20px; }
-.policy-card li + li { margin-top: 10px; }
 .site-footer { padding: 26px 0; color: #9dafaa; background: #081f1a; font-size: .8rem; }
 .footer-inner { display: flex; justify-content: space-between; gap: 20px; }
 .footer-inner p { margin: 0; }
@@ -115,7 +105,6 @@ h1 span { display: block; color: #a8d9ca; font-weight: 500; }
   .hero-grid { grid-template-columns: 1fr; gap: 46px; }
   .hero-panel { max-width: 560px; }
   .stage-roadmap { grid-template-columns: 1fr; }
-  .policy-card { grid-template-columns: 1fr; gap: 24px; }
 }
 
 @media (max-width: 720px) {
@@ -127,9 +116,8 @@ h1 span { display: block; color: #a8d9ca; font-weight: 500; }
   .site-nav a { padding: 11px 12px; }
   .hero { padding: 78px 0 68px; }
   .section { padding: 72px 0; }
-  .metrics-heading, .output-example, .footer-inner { align-items: flex-start; flex-direction: column; }
+  .metrics-heading, .footer-inner { align-items: flex-start; flex-direction: column; }
   .contributors-grid { grid-template-columns: 1fr; }
-  .policy-card { padding: 28px 24px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

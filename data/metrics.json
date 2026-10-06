@@ -5,16 +5,16 @@
       "name": "1단계",
       "years": "1~2차년도",
       "metrics": [
-        {"name":"rPPG 실재성 검증","evaluation":"AUC / 정확도","target":"0.95 / 92%","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"얼굴 위조방어 (Face PAD)","evaluation":"ACER / HTER","target":"1.0% / 8.0%","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"비디오 주입 조기 탐지","evaluation":"F1","target":"0.75","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"위조 음성 탐지","evaluation":"EER","target":"2.0%","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"멀티모달 위험도 융합","evaluation":"Acc. 또는 AUC / FPR*","target":"Acc. 0.95 / 8.0*","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
+        {"name":"rPPG 실재성 검증","evaluation":"AUC / 정확도","target":"0.95 / 92%","owners":"윤여찬 (주), 홍상우 (검증)","status":"TBD","outputs":[{"label":"GitHub","url":"https://github.com/ondyari/FaceForensics","example":true}]},
+        {"name":"얼굴 위조방어 (Face PAD)","evaluation":"ACER / HTER","target":"1.0% / 8.0%","owners":"윤여찬 (주), 홍상우 (검증)","status":"TBD","outputs":[]},
+        {"name":"비디오 주입 조기 탐지","evaluation":"F1","target":"0.75","owners":"윤여찬 (주), 홍상우 (주·검증)","status":"TBD","outputs":[]},
+        {"name":"위조 음성 탐지","evaluation":"EER","target":"2.0%","owners":"윤여찬 (주)","status":"TBD","outputs":[]},
+        {"name":"멀티모달 위험도 융합","evaluation":"Acc. 또는 AUC / FPR*","target":"Acc. 0.95 / 8.0*","owners":"윤여찬 (주), 홍상우 (주·검증), 오병국 (공동)","status":"TBD","outputs":[]},
         {"name":"프롬프트 인젝션 탐지","evaluation":"F1","target":"0.88","owners":"오병국 (주), 윤여찬 (공동)","status":"TBD","outputs":[]},
-        {"name":"프롬프트 인젝션 대응","evaluation":"ASR*","target":"20*","owners":"오병국 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"에이전트 식별","evaluation":"정확도 / FAR","target":"92% / 1.5%","owners":"오병국 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"권한오용 방어","evaluation":"ASR / 차단율","target":"10% / 95%","owners":"오병국 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"실시간 대응","evaluation":"지연시간","target":"300 ms","owners":"홍상우 (주), 오병국 (공동)","status":"TBD","outputs":[]}
+        {"name":"프롬프트 인젝션 대응","evaluation":"ASR*","target":"20*","owners":"오병국 (주), 홍상우 (주·검증)","status":"TBD","outputs":[]},
+        {"name":"에이전트 식별","evaluation":"정확도 / FAR","target":"92% / 1.5%","owners":"오병국 (주), 윤여찬 (공동)","status":"TBD","outputs":[]},
+        {"name":"권한오용 방어","evaluation":"ASR / 차단율","target":"10% / 95%","owners":"오병국 (주), 홍상우 (주·검증)","status":"TBD","outputs":[]},
+        {"name":"실시간 대응","evaluation":"지연시간","target":"300 ms","owners":"홍상우 (주), 윤여찬·오병국 (공동)","status":"TBD","outputs":[]}
       ]
     },
     {
@@ -22,16 +22,16 @@
       "name": "2단계",
       "years": "3~4차년도",
       "metrics": [
-        {"name":"rPPG 실재성 검증","evaluation":"AUC / 정확도","target":"0.97 / 95%","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"얼굴 위조방어 (Face PAD)","evaluation":"ACER / HTER","target":"0.5% / 5.0%","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"비디오 주입 조기 탐지","evaluation":"F1","target":"0.85","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"위조 음성 탐지","evaluation":"EER","target":"1.0%","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"멀티모달 위험도 융합","evaluation":"Acc. 또는 AUC / FPR*","target":"Acc. 0.97 / 5.0*","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
+        {"name":"rPPG 실재성 검증","evaluation":"AUC / 정확도","target":"0.97 / 95%","owners":"윤여찬 (주), 홍상우 (검증)","status":"TBD","outputs":[]},
+        {"name":"얼굴 위조방어 (Face PAD)","evaluation":"ACER / HTER","target":"0.5% / 5.0%","owners":"윤여찬 (주), 홍상우 (검증)","status":"TBD","outputs":[]},
+        {"name":"비디오 주입 조기 탐지","evaluation":"F1","target":"0.85","owners":"윤여찬 (주), 홍상우 (주·검증)","status":"TBD","outputs":[]},
+        {"name":"위조 음성 탐지","evaluation":"EER","target":"1.0%","owners":"윤여찬 (주)","status":"TBD","outputs":[]},
+        {"name":"멀티모달 위험도 융합","evaluation":"Acc. 또는 AUC / FPR*","target":"Acc. 0.97 / 5.0*","owners":"윤여찬 (주), 홍상우 (주·검증), 오병국 (공동)","status":"TBD","outputs":[]},
         {"name":"프롬프트 인젝션 탐지","evaluation":"F1","target":"0.92","owners":"오병국 (주), 윤여찬 (공동)","status":"TBD","outputs":[]},
-        {"name":"프롬프트 인젝션 대응","evaluation":"ASR*","target":"10*","owners":"오병국 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"에이전트 식별","evaluation":"정확도 / FAR","target":"96% / 0.8%","owners":"오병국 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"권한오용 방어","evaluation":"ASR / 차단율","target":"7% / 97%","owners":"오병국 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"실시간 대응","evaluation":"지연시간","target":"250 ms","owners":"홍상우 (주), 오병국 (공동)","status":"TBD","outputs":[]}
+        {"name":"프롬프트 인젝션 대응","evaluation":"ASR*","target":"10*","owners":"오병국 (주), 홍상우 (주·검증)","status":"TBD","outputs":[]},
+        {"name":"에이전트 식별","evaluation":"정확도 / FAR","target":"96% / 0.8%","owners":"오병국 (주), 윤여찬 (공동)","status":"TBD","outputs":[]},
+        {"name":"권한오용 방어","evaluation":"ASR / 차단율","target":"7% / 97%","owners":"오병국 (주), 홍상우 (주·검증)","status":"TBD","outputs":[]},
+        {"name":"실시간 대응","evaluation":"지연시간","target":"250 ms","owners":"홍상우 (주), 윤여찬·오병국 (공동)","status":"TBD","outputs":[]}
       ]
     },
     {
@@ -39,16 +39,16 @@
       "name": "3단계",
       "years": "5~6차년도",
       "metrics": [
-        {"name":"rPPG 실재성 검증","evaluation":"AUC / 정확도","target":"0.985 / 98%","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"얼굴 위조방어 (Face PAD)","evaluation":"ACER / HTER","target":"0.3% / 3.0%","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"비디오 주입 조기 탐지","evaluation":"F1","target":"0.92","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"위조 음성 탐지","evaluation":"EER","target":"0.5%","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"멀티모달 위험도 융합","evaluation":"Acc. 또는 AUC / FPR*","target":"AUC 0.99 / 3.0%","owners":"윤여찬 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
+        {"name":"rPPG 실재성 검증","evaluation":"AUC / 정확도","target":"0.985 / 98%","owners":"윤여찬 (주), 홍상우 (검증)","status":"TBD","outputs":[]},
+        {"name":"얼굴 위조방어 (Face PAD)","evaluation":"ACER / HTER","target":"0.3% / 3.0%","owners":"윤여찬 (주), 홍상우 (검증)","status":"TBD","outputs":[]},
+        {"name":"비디오 주입 조기 탐지","evaluation":"F1","target":"0.92","owners":"윤여찬 (주), 홍상우 (주·검증)","status":"TBD","outputs":[]},
+        {"name":"위조 음성 탐지","evaluation":"EER","target":"0.5%","owners":"윤여찬 (주)","status":"TBD","outputs":[]},
+        {"name":"멀티모달 위험도 융합","evaluation":"Acc. 또는 AUC / FPR*","target":"AUC 0.99 / 3.0%","owners":"윤여찬 (주), 홍상우 (주·검증), 오병국 (공동)","status":"TBD","outputs":[]},
         {"name":"프롬프트 인젝션 탐지","evaluation":"F1","target":"0.95","owners":"오병국 (주), 윤여찬 (공동)","status":"TBD","outputs":[]},
-        {"name":"프롬프트 인젝션 대응","evaluation":"ASR*","target":"5*","owners":"오병국 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"에이전트 식별","evaluation":"정확도 / FAR","target":"98% / 0.5%","owners":"오병국 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"권한오용 방어","evaluation":"ASR / 차단율","target":"5% / 99%","owners":"오병국 (주), 홍상우 (공동)","status":"TBD","outputs":[]},
-        {"name":"실시간 대응","evaluation":"지연시간","target":"200 ms","owners":"홍상우 (주), 오병국 (공동)","status":"TBD","outputs":[]}
+        {"name":"프롬프트 인젝션 대응","evaluation":"ASR*","target":"5*","owners":"오병국 (주), 홍상우 (주·검증)","status":"TBD","outputs":[]},
+        {"name":"에이전트 식별","evaluation":"정확도 / FAR","target":"98% / 0.5%","owners":"오병국 (주), 윤여찬 (공동)","status":"TBD","outputs":[]},
+        {"name":"권한오용 방어","evaluation":"ASR / 차단율","target":"5% / 99%","owners":"오병국 (주), 홍상우 (주·검증)","status":"TBD","outputs":[]},
+        {"name":"실시간 대응","evaluation":"지연시간","target":"200 ms","owners":"홍상우 (주), 윤여찬·오병국 (공동)","status":"TBD","outputs":[]}
       ]
     }
   ]

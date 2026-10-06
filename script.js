@@ -14,6 +14,9 @@ function renderOutputs(outputs) {
   return outputs.map((output) => {
     const label = escapeHtml(output.label);
     const url = escapeHtml(output.url);
+    if (output.example) {
+      return `<a class="output-example-link" href="${url}" target="_blank" rel="noopener noreferrer">${label}<small>(예시)</small></a>`;
+    }
     return `<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
   }).join(" · ");
 }
@@ -74,8 +77,5 @@ siteNav.addEventListener("click", () => {
   navToggle.setAttribute("aria-expanded", "false");
 });
 
-document.querySelectorAll("[data-placeholder-link]").forEach((link) => {
-  link.addEventListener("click", (event) => event.preventDefault());
-});
 document.querySelector("#current-year").textContent = new Date().getFullYear();
 loadMetrics();
